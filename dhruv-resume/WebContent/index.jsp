@@ -61,8 +61,8 @@
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
-				<h1 id="colorlib-logo"><a href="index.jsp">Jackson Ford</a></h1>
-				<span class="position"><a href="#">UI/UX/Designer</a> in Philippines</span>
+				<h1 id="colorlib-logo"><a href="">Dhruv Pandey</a></h1>
+				<span class="position">FULL STACK DEVELOPER IN FINLAND</span>
 			</div>
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 				<div id="navbar" class="collapse">
@@ -81,9 +81,14 @@
 			</nav>
 
 			<div class="colorlib-footer">
-				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright <script>document.write(new Date().getFullYear());</script> All rights reserved. Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> <span>Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a></span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span></small></p>
+				<p>
+				<small>
+ 					<span><a href="mailto:dhruv.pandey93@gmail.com" target="_blank">dhruv.pandey93@gmail.com</a></span> 
+ 					<span><a href="https://www.linkedin.com/in/dhruv-pandey93" target="_blank">linkedin.com/dhruv-pandey93</a></span>
+ 					<span><a href="https://www.facebook.com/greenpandey" target="_blank">fb.com/dhruv-pandey93</a></span>
+ 					<span>+358 465399498</span>
+ 				</small>
+ 				</p>
 				<ul>
 					<li><a href="#"><i class="icon-facebook2"></i></a></li>
 					<li><a href="#"><i class="icon-twitter2"></i></a></li>
@@ -144,7 +149,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 										<span class="heading-meta">About Me</span>
 										<h2 class="colorlib-heading">Who Am I?</h2>
 										<p><strong>Hi I'm Dhruv Pandey</strong> A machine learning enthusiast having previously worked as a full stack Liferay portal developer. Currently working as a support and automation engineer at client side in Finland, and responsible for architecture upgrade and automation. </p>
-										<p>I am a strong believer of V-learning model and that's what has been helping me in understanding all these technologies(atleast this applies to machine learning). </p>
+										<p>I am a strong believer of V-learning model and that's what has been helping me in understanding all these technologies. </p>
 										<p>But when I am not doing any of these things, I can be found cooking or browsing my mobile doing nothing.</p>
 									</div>
 								</div>
@@ -175,14 +180,17 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 									</div>
 								</div>
 							</div>
-							<div class="row">
+							
+							<!-- <div class="row">
 								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 									<div class="hire">
 										<h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
 										<a href="#" class="btn-hire">Hire me</a>
 									</div>
 								</div>
-							</div>
+							</div> -->
+							
+							
 						</div>
 					</div>
 				</div>
