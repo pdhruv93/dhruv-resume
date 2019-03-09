@@ -1,9 +1,13 @@
-<!DOCTYPE HTML>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+
+<%@page import="java.util.ArrayList"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Jackson Template</title>
+	<title>Know Dhruv</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -57,7 +61,7 @@
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
-				<h1 id="colorlib-logo"><a href="index.html">Jackson Ford</a></h1>
+				<h1 id="colorlib-logo"><a href="index.jsp">Jackson Ford</a></h1>
 				<span class="position"><a href="#">UI/UX/Designer</a> in Philippines</span>
 			</div>
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
@@ -101,8 +105,8 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner js-fullheight">
 					   					<div class="desc">
-						   					<h1>Hi! <br>I'm Jackson</h1>
-						   					<h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
+						   					<h1>Hi! <br>I'm Dhruv</h1>
+						   					<!-- <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2> -->
 												<p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
 											</div>
 					   				</div>
@@ -110,7 +114,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					   		</div>
 				   		</div>
 				   	</li>
-				   	<li style="background-image: url(images/img_bg_2.jpg);">
+				   	<!--<li style="background-image: url(images/img_bg_2.jpg);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -125,7 +129,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					   			</div>
 					   		</div>
 				   		</div>
-				   	</li>
+				   	</li>-->
 				  	</ul>
 			  	</div>
 			</section>
@@ -137,10 +141,11 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
 								<div class="col-md-12">
 									<div class="about-desc">
-										<span class="heading-meta">About Us</span>
+										<span class="heading-meta">About Me</span>
 										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p><strong>Hi I'm Jackson Ford</strong> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
-										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+										<p><strong>Hi I'm Dhruv Pandey</strong> A machine learning enthusiast having previously worked as a full stack Liferay portal developer. Currently working as a support and automation engineer at client side in Finland, and responsible for architecture upgrade and automation. </p>
+										<p>I am a strong believer of V-learning model and that's what has been helping me in understanding all these technologies(atleast this applies to machine learning). </p>
+										<p>But when I am not doing any of these things, I can be found cooking or browsing my mobile doing nothing.</p>
 									</div>
 								</div>
 							</div>
