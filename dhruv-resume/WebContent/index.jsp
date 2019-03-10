@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 
-<%@page import="java.util.ArrayList"%>
+<%@page import="java.util.ArrayList,org.joda.time.LocalDate,org.joda.time.Years,org.joda.time.Days"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
@@ -55,6 +55,20 @@
 
 	</head>
 	<body>
+	
+	<%
+	LocalDate dateOfJoin = new LocalDate(2015, 7, 13);
+	LocalDate now = new LocalDate();
+	Years age = Years.yearsBetween(dateOfJoin, now);
+	
+	LocalDate birthday = new LocalDate(1993, 9, 20);
+	long days = Days.daysBetween(birthday, now).getDays();
+	long sleep= (days*8)/1000;
+	
+	
+	%>
+	
+	
 	<div id="colorlib-page">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
@@ -69,13 +83,15 @@
 					<ul>
 						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
 						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="services">Services</a></li>
-						<li><a href="#" data-nav-section="skills">Skills</a></li>
+						<!--<li><a href="#" data-nav-section="services">Services</a></li>-->
+						<li><a href="#" data-nav-section="skills">Key Skills</a></li>
 						<li><a href="#" data-nav-section="education">Education</a></li>
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="work">Work</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li>
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
+						<li><a href="#" data-nav-section="experience2">Internships & Projects</a></li>
+						<li><a href="#" data-nav-section="experience3">Courses & Certifications</a></li>
+						<!-- <li><a href="#" data-nav-section="work">Work</a></li>
+						<li><a href="#" data-nav-section="blog">Blog</a></li> -->
+						<!--  <li><a href="#" data-nav-section="contact">Contact</a></li> -->
 					</ul>
 				</div>
 			</nav>
@@ -154,31 +170,36 @@
 									</div>
 								</div>
 							</div>
+							
+							  
 							<div class="row">
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-									<div class="services color-1">
-										<span class="icon2"><i class="icon-bulb"></i></span>
-										<h3>Graphic Design</h3>
+							<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-4">
+										<span class="icon2"><i class="icon-phone3"></i></span>
+										<h3>Full Stack Developer</h3>
 									</div>
 								</div>
+								
 								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
 									<div class="services color-2">
 										<span class="icon2"><i class="icon-globe-outline"></i></span>
-										<h3>Web Design</h3>
+										<h3>ML Enthusiast</h3>
 									</div>
 								</div>
 								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
 									<div class="services color-3">
 										<span class="icon2"><i class="icon-data"></i></span>
-										<h3>Software</h3>
+										<h3>Agile Practioner</h3>
 									</div>
 								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-									<div class="services color-4">
-										<span class="icon2"><i class="icon-phone3"></i></span>
-										<h3>Application</h3>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+									<div class="services color-1">
+										<span class="icon2"><i class="icon-bulb"></i></span>
+										<h3>Mentor</h3>
 									</div>
 								</div>
+								
+								
 							</div>
 							
 							<!-- <div class="row">
@@ -198,84 +219,7 @@
 
 
 			
-			<section class="colorlib-services" data-section="services">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">What I do?</span>
-							<h2 class="colorlib-heading">Here are some of my expertise</h2>
-						</div>
-					</div>
-					<div class="row row-pt-md">
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-1">
-								<span class="icon">
-									<i class="icon-bulb"></i>
-								</span>
-								<div class="desc">
-									<h3>Innovative Ideas</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-2">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-3">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-4">
-								<span class="icon">
-									<i class="icon-layers2"></i>
-								</span>
-								<div class="desc">
-									<h3>Graphic Design</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-5">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-6">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+			
 			
 			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
 				<div class="overlay"></div>
@@ -283,22 +227,23 @@
 					<div class="row">
 					</div>
 					<div class="row">
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Cups of coffee</span>
+						<div class="col-md-4 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="<%=sleep %>" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label"><b>K</b> Hours of Sleep</span>
 						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="356" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Projects</span>
+						<div class="col-md-4 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="<%=age.getYears() %>" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label"><b>years</b> IT Experience</span>
 						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Clients</span>
+						<div class="col-md-4 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="5" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label"><b>Live</b> Delivered Projects</span>
 						</div>
-						<div class="col-md-3 text-center animate-box">
+						<!--<div class="col-md-3 text-center animate-box">
 							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
 							<span class="colorlib-counter-label">Partners</span>
-						</div>
+						</div>-->
+						
 					</div>
 				</div>
 			</div>
@@ -312,71 +257,158 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+						<!-- <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 							<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-						</div>
+						</div> -->
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
-								<h3>Photoshop</h3>
+								<h3>Python 3</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-								    <span>75%</span>
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Computer Vision in Python(OpenCV, YOLO3)</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Deep Learning with PyTorch</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						
+						
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Liferay 6.2(Developer+Admin)</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Java(Core+Advanced)</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>JavaScript and jQuery</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>CSS</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Bootstrap</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
+								  	</div>
+								</div>
+							</div>
+						</div>
+					
+						
+						
+						
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>MySQL</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						
+						
+						
+						
+						
+						
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Atlassian Products(JIRA, Crowd, Confluence)</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						
+						
+						
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Github</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
 								  	</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="progress-wrap">
-								<h3>jQuery</h3>
+								<h3>Google Analytics and GSA(Google Search Appliance)</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-								    <span>60%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>HTML5</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>85%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>CSS3</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>WordPress</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
-								    <span>70%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>SEO</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
 								  	</div>
 								</div>
 							</div>
@@ -384,6 +416,8 @@
 					</div>
 				</div>
 			</section>
+
+
 
 			<section class="colorlib-education" data-section="education">
 				<div class="colorlib-narrow-content">
@@ -400,18 +434,20 @@
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingOne">
 									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Master Degree Graphic Design
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Graduate in Computer Science
 									            </a>
 									        </h4>
 									    </div>
 									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 									         <div class="panel-body">
 									            <div class="row">
-										      		<div class="col-md-6">
-										      			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+										      		<div class="col-md-8">
+										      			<p>Graduate from Ambedkar Institute of Advanced Comm. & Technical Research(AIACTR),GGSIPU,Delhi</p>
+										      			<p>Studied Software Engineering, Advanced Java Programming, Database Designing, Algorithms Design and Analysis</p>
 										      		</div>
-										      		<div class="col-md-6">
-										      			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+										      		<div class="col-md-4">
+										      			<p>2011-2015</p>
+										      			<p><b>80.89%</b></p>
 										      		</div>
 										      	</div>
 									         </div>
@@ -420,21 +456,31 @@
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingTwo">
 									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Computer Science
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Schooling
 									            </a>
 									        </h4>
 									    </div>
 									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-													<ul>
-														<li>Separated they live in Bookmarksgrove right</li>
-														<li>Separated they live in Bookmarksgrove right</li>
-													</ul>
+									        <div class="row">
+										      		<div class="col-md-8">
+										      			<p>XII (2011)</p>
+										      			<p>X (2009)</p>
+										      		</div>
+										      		<div class="col-md-4">
+										      			<p><b>92.5%</b></p>
+										      			<p><b>94.3%</b></p>
+										      		</div>
+										      	</div>
+									        
+									        
+									        
 									        </div>
 									    </div>
 									</div>
-									<div class="panel panel-default">
+									
+									
+									<!--<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingThree">
 									        <h4 class="panel-title">
 									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Diploma in Information Technology
@@ -474,7 +520,10 @@
 									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
 									        </div>
 									    </div>
-									</div>
+									</div> -->
+									
+									
+									
 								</div>
 							</div>
 						</div>
@@ -501,8 +550,19 @@
 					               </div>
 
 					               <div class="timeline-label">
-					                  <h2><a href="#">Full Stack Developer</a> <span>2017-2018</span></h2>
-					                  <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+					                  <h2><a href="#"><i>System Engineer,</i> Tata Consultancy Services (TCS), Finland</a><br><span>June 2018 - Present</span></h2>
+					                  <p>
+									<ul>
+						<li>Working for Finland based telecom company at client location</li>
+						<li>Architecture Upgrade for existing interface applications</li>
+						<li>Application Level Support and Server Maintenance for  Telecom Critical applications</li>
+						<li>Monitoring Automation at Server and Application Level through Grafana</li>
+						<li>Devops: Jenkins for integrating Github, artifactory push, Testing(Robot Framework) and server deployment</li>
+						<li>Admin and server related tasks for Atlassian products(JIRA, Crowd, Confluence)</li>
+					</ul>
+					</p>
+						
+							
 					               </div>
 					            </div>
 					         </article>
@@ -514,8 +574,17 @@
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Front End Developer at Google Company</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               	 <h2><a href="#"><i>Assistant System Engineer,</i> Tata Consultancy Services (TCS), Gurgaon</a><br><span>Oct 2015 - May 2018</span></h2>
+					                  <p>
+					<ul>
+						<li>Full stack developer in Liferay 6.2(Frontend, Backend Developer and Admin)</li>
+						<li>Portal Development  for a Finnish client from scratch.</li>
+						<li>Use of Agile Methodology, JIRA and other Agile Processes which helped in on-time delivery and Go-live.</li>
+						<li>Code Management through Github.</li>
+
+					</ul>
+					</p>
+
 					               </div>
 					            </div>
 					         </article>
@@ -526,13 +595,18 @@
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">System Analyst</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					                <h2><a href="#"><i>Assistant System Engineer Trainee,</i> Tata Consultancy Services (TCS), Chennai</a><br><span>July 2015 - Sept 2015</span></h2>
+					                  <p>
+					<ul>
+						<li>Developed a Telecom Portal in a team of 13 trainees using Java, JSP, Servlets, Bootstrap and v2.0 using Angular JS.</li>
+
+					</ul>
+					</p>
 					               </div>
 					            </div>
 					         </article>
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					         <!-- <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
 					            <div class="timeline-entry-inner">
 					               <div class="timeline-icon color-4">
 					                  <i class="icon-pen2"></i>
@@ -554,7 +628,7 @@
 					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 					               </div>
 					            </div>
-					         </article>
+					         </article> -->
 
 					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
 					            <div class="timeline-entry-inner">
@@ -567,6 +641,269 @@
 				   </div>
 				</div>
 			</section>
+			
+			
+			
+			<section class="colorlib-experience" data-section="experience2">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experience</span>
+							<h2 class="colorlib-heading animate-box">Internships and Projects</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="#">RAC(Recruitment and Assessment Centre), DRDO(Defence Research & Development Organisation)</a><br><span>17th June 2013 to 29th July 2013</span></h2>
+					                 <p>
+					<ul>
+						<li>Assignment entitled "Automated Email Sending"</li>
+						<li>Under supervision of Mrs. Jyoti Bhalla, Asst Director, Scientist ‘B’</li>
+						<li>The application runs on Desktop as a cron and reads CSV file from user's phone and reminds user of any birthday or reminders. Then it allows to send mail to the employee using predefined or custom templates.</li>
+						<li>Technology Used: Core Java, JDBC, Java Swing, MySql</li>
+					</ul>
+					</p>
+						
+							
+					               </div>
+					            </div>
+					         </article>
+
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	 <h2><a href="#">ITI(Indian Telephone Industry)</a><br><span>16th June 2014 to 31th July 2014</span></h2>
+					                  <p>
+					<ul>
+						<li>Assignment entitled "Email/SMS Sending System"</li>
+						<li>Technology Used: Core Java, JDBC, Java Swing, MySql, HTTP requests and response</li>
+					</ul>
+					</p>
+
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					                <h2><a href="#">Intrusion Detection System based on Genetic Algorithm</a><br><span>Major and Minor Project</span></h2>
+					                  <p>
+					<ul>
+						<li>
+					An application which automatically runs on system start-up records the start-up and shutdown time of the system. Based on the past duration values it applies Genetic algorithm to calculate the expected usage time of the system. If the current usage exceeds the expected usage then it is informed to owner as Intrusion. Same principle can be applied to Network Usage.
+					</li>
+
+					</ul>
+					</p>
+					               </div>
+					            </div>
+					         </article>
+					         
+				
+					          
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">@@time(At a time)</a><br><span>Hobby Project on Heroku</span></h2>
+					                  <p>
+					<ul>
+						<li>Created as a Hobby Project on Heroku. Single Page application based on Bootstrap, Javascript-AJAX, Servlets using Tomcat container and Postgres SQL on Heroku.</li>
+					<li>The application lets users mark their current activity and then check the list of other users(with geographical location) doing exactly the same activity at that time. </li>
+					<li>Whatsapp chat with other users also supported.</li>
+					<li>Rich UI, easy signin using Google API and all devices support.</li>
+
+					</ul>
+					</p>
+					               </div>
+					            </div>
+					         </article>
+
+					          <!--<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
+					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               </div>
+					            </div>
+					         </article> -->
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+			
+			
+			
+			
+			  <section class="colorlib-services" data-section="experience3">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<!-- <span class="heading-meta">What I do?</span>  -->
+							<h2 class="colorlib-heading">Here are some of my expertise</h2>
+						</div>
+					</div>
+					<div class="row row-pt-md" style="display: flex;flex-wrap: wrap;">
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-1">
+								<span class="icon">
+									<i class="icon-bulb"></i>
+								</span>
+								<div class="desc">
+									<!--  <h3>Innovative Ideas</h3> -->
+									<p>Computer Vision for Object and Face Recognition in Python using OpenCV and YOLO3</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-2">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<!--  <h3>Innovative Ideas</h3> -->
+									<p>Single Lane Self Driving Car using CNN</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-3">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<!--  <h3>Innovative Ideas</h3> -->
+									<p>Deep Learning using PyTorch and Jupyter Notebooks on edX</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-4">
+								<span class="icon">
+									<i class="icon-layers2"></i>
+								</span>
+								<div class="desc">
+									<!--  <h3>Innovative Ideas</h3> -->
+									<p>Chatbot creation using IBM Watson Assistant</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-5">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<!--  <h3>Innovative Ideas</h3> -->
+									<p>Andrew Ng's Machine Learning Course on Coursera for Theoretical foundation</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-6">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<!--  <h3>Innovative Ideas</h3> -->
+									<p>NPTEL Online Certification for Programming, Data Structures and Algorithms</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-5">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<!--  <h3>Innovative Ideas</h3> -->
+									<p>Andrew Ng's Machine Learning Course on Coursera for Theoretical foundation</p>
+								</div>
+							</div>
+						</div>
+						
+						
+						
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-5">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<!--  <h3>Innovative Ideas</h3> -->
+									<p>Recognized by Oracle Certification Program as an Oracle Certified Professional, Java SE6Programmer.</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-5">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<!--  <h3>Innovative Ideas</h3> -->
+									<p>1 year duration course of Core+Advance Java, Struts, SQL from Ducat, Noida.</p>
+								</div>
+							</div>
+						</div>
+						
+						
+						
+					</div>
+				</div>
+			</section>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 
 			<section class="colorlib-work" data-section="work">
 				<div class="colorlib-narrow-content">
@@ -729,7 +1066,7 @@
 				</div>
 			</section>
 
-			<section class="colorlib-contact" data-section="contact">
+			<!--  <section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -792,7 +1129,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section>-->
 
 		</div><!-- end:colorlib-main -->
 	</div><!-- end:container-wrap -->
