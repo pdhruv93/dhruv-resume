@@ -128,7 +128,7 @@
 					   					<div class="desc">
 						   					<h1>Hi! <br>I'm Dhruv</h1>
 						   					<!-- <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2> -->
-												<p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
+												<p><a href="download.jsp" class="btn btn-primary btn-learn">Get a PDF <i class="icon-download4"></i></a></p>
 											</div>
 					   				</div>
 					   			</div>
@@ -189,7 +189,7 @@
 								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
 									<div class="services color-3">
 										<span class="icon2"><i class="icon-data"></i></span>
-										<h3>Agile Practioner</h3>
+										<h3>Agile Practitioner</h3>
 									</div>
 								</div>
 								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
@@ -778,7 +778,7 @@
 						<div class="col-md-4 text-center animate-box">
 							<div class="services color-1">
 								<span class="icon">
-									<i class="icon-bulb"></i>
+									<i class="icon-wi-fi"></i>
 								</span>
 								<div class="desc">
 									<!--  <h3>Innovative Ideas</h3> -->
@@ -787,9 +787,9 @@
 							</div>
 						</div>
 						<div class="col-md-4 text-center animate-box">
-							<div class="services color-2">
+							<div class="services color-1">
 								<span class="icon">
-									<i class="icon-data"></i>
+									<i class="icon-wi-fi"></i>
 								</span>
 								<div class="desc">
 									<!--  <h3>Innovative Ideas</h3> -->
@@ -798,9 +798,9 @@
 							</div>
 						</div>
 						<div class="col-md-4 text-center animate-box">
-							<div class="services color-3">
+							<div class="services color-1">
 								<span class="icon">
-									<i class="icon-phone3"></i>
+									<i class="icon-wi-fi"></i>
 								</span>
 								<div class="desc">
 									<!--  <h3>Innovative Ideas</h3> -->
@@ -811,7 +811,7 @@
 						<div class="col-md-4 text-center animate-box">
 							<div class="services color-4">
 								<span class="icon">
-									<i class="icon-layers2"></i>
+									<i class="icon-wi-fi"></i>
 								</span>
 								<div class="desc">
 									<!--  <h3>Innovative Ideas</h3> -->
@@ -820,9 +820,9 @@
 							</div>
 						</div>
 						<div class="col-md-4 text-center animate-box">
-							<div class="services color-5">
+							<div class="services color-1">
 								<span class="icon">
-									<i class="icon-data"></i>
+									<i class="icon-wi-fi"></i>
 								</span>
 								<div class="desc">
 									<!--  <h3>Innovative Ideas</h3> -->
@@ -833,7 +833,7 @@
 						<div class="col-md-4 text-center animate-box">
 							<div class="services color-6">
 								<span class="icon">
-									<i class="icon-phone3"></i>
+									<i class="icon-pencil"></i>
 								</span>
 								<div class="desc">
 									<!--  <h3>Innovative Ideas</h3> -->
@@ -842,24 +842,13 @@
 							</div>
 						</div>
 						
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-5">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<!--  <h3>Innovative Ideas</h3> -->
-									<p>Andrew Ng's Machine Learning Course on Coursera for Theoretical foundation</p>
-								</div>
-							</div>
-						</div>
 						
 						
 						
 						<div class="col-md-4 text-center animate-box">
 							<div class="services color-5">
 								<span class="icon">
-									<i class="icon-data"></i>
+									<i class="icon-pencil"></i>
 								</span>
 								<div class="desc">
 									<!--  <h3>Innovative Ideas</h3> -->
@@ -871,7 +860,7 @@
 						<div class="col-md-4 text-center animate-box">
 							<div class="services color-5">
 								<span class="icon">
-									<i class="icon-data"></i>
+									<i class="icon-layers2"></i>
 								</span>
 								<div class="desc">
 									<!--  <h3>Innovative Ideas</h3> -->
@@ -905,7 +894,7 @@
 			
 			
 
-			<section class="colorlib-work" data-section="work">
+			<!--  <section class="colorlib-work" data-section="work">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -1064,7 +1053,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section>-->
 
 			<!--  <section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">
