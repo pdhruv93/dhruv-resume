@@ -89,6 +89,7 @@
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
 						<li><a href="#" data-nav-section="experience2">Internships & Projects</a></li>
 						<li><a href="#" data-nav-section="experience3">Courses & Certifications</a></li>
+						<li><a href="#" data-nav-section="experience4">Achievements</a></li>
 						<!-- <li><a href="#" data-nav-section="work">Work</a></li>
 						<li><a href="#" data-nav-section="blog">Blog</a></li> -->
 						<!--  <li><a href="#" data-nav-section="contact">Contact</a></li> -->
@@ -732,6 +733,7 @@
 					<li>The application lets users mark their current activity and then check the list of other users(with geographical location) doing exactly the same activity at that time. </li>
 					<li>Whatsapp chat with other users also supported.</li>
 					<li>Rich UI, easy signin using Google API and all devices support.</li>
+					<li><a href="https://atatime.herokuapp.com/">Link</a></li>
 
 					</ul>
 					</p>
@@ -739,17 +741,27 @@
 					            </div>
 					         </article>
 
-					          <!--<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					          <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
 					               <div class="timeline-icon color-5">
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               	<h2><a href="#">Learn IT, Girl</a><br><span>11th March 2019 to 16th June 2019</span></h2>
+					                  <p>
+					<ul>
+						<li>Chosen as a Java mentor in <a href="https://www.learnitgirl.com">Learn IT, Girl</a> Program</li>
+						<li>Worldwide learning program for Girls where they get a mentor to help them through discovering their new language and coding their great project</li>
+					<li>Java Microservices using Spring Boot</li>
+					<li>Zuul and Yureka Servers for Microservice Registration and Load Balancing</li>
+					<li>Microservice Authentication</li>
+					<li>Microservice Documentation using Swagger</li>
+
+					</ul>
+					</p>
 					               </div>
 					            </div>
-					         </article> -->
+					         </article>
 
 					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
 					            <div class="timeline-entry-inner">
@@ -783,6 +795,11 @@
 								<div class="desc">
 									<!--  <h3>Innovative Ideas</h3> -->
 									<p>Computer Vision for Object and Face Recognition in Python using OpenCV and YOLO3</p>
+									<p>
+									<a href="https://github.com/pdhruv93/YOLO-Face-Recognition-DLIB/blob/master/opencv-face-recognition-dlib/Face_Recognition_DLIB_Image.ipynb">Face Recognition Project</a>
+									<br><br>
+									<a href="https://github.com/pdhruv93/YOLO-Object-Detection/blob/master/yolo-object-detection/ObjectDetector_YOLO_Video.ipynb">YOLO Object Detection in Video</a>
+									</p>
 								</div>
 							</div>
 						</div>
@@ -794,6 +811,12 @@
 								<div class="desc">
 									<!--  <h3>Innovative Ideas</h3> -->
 									<p>Single Lane Self Driving Car using CNN</p>
+									<p>
+									<a href="https://github.com/pdhruv93/Lane-Detection-In-Video/blob/master/Lane_Detector_image.ipynb">Lane Detector for a Self Driving Car</a>
+									<br><br>
+									<a href="https://github.com/pdhruv93/Self-Drive-Car-CNN">Self Driving Car</a>
+								
+									</p>
 								</div>
 							</div>
 						</div>
@@ -805,6 +828,11 @@
 								<div class="desc">
 									<!--  <h3>Innovative Ideas</h3> -->
 									<p>Deep Learning using PyTorch and Jupyter Notebooks on edX</p>
+									<p>
+									<a href="https://github.com/pdhruv93/Traffic-Signs-Detector/blob/master/DetectTrafficSigns_FitGenerator.ipynb">Traffic Sign Detector using CNN</a>
+									
+								
+									</p>
 								</div>
 							</div>
 						</div>
@@ -875,6 +903,126 @@
 				</div>
 			</section>
 			
+			
+			
+			
+			<section class="colorlib-blog" data-section="experience4">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<!--  <span class="heading-meta">Read</span>-->
+							<h2 class="colorlib-heading">Achievements</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								
+								<div class="desc">
+	
+									<h3><a href="">Star Performer in TCS Training in Chennai.</a></h3>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								
+								<div class="desc">
+									
+									<h3><a href="">Active participator in TCS Agile Group.</a></h3>
+								
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								
+								<div class="desc">
+									
+									<h3><a href="">Client Appreciation in TCS for smooth Go-Live and on time deliveries.</a></h3>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								
+								<div class="desc">
+									
+									<h3><a href="">2nd Position In Scavenger Hunt(College Fest).</a></h3>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								
+								<div class="desc">
+									
+									<h3><a href="">Anuvrat Essay Competition Winner In East Delhi.</a></h3>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								
+								<div class="desc">
+									
+									<h3><a href="">Scholarship Of 11000INR for School Topper In 10th Class.</a></h3>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								
+								<div class="desc">
+									
+									<h3><a href="">100% Fees Exemption During Classes 11 And 12.</a></h3>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								
+								<div class="desc">
+									
+									<h3><a href="">Awarded With Rajiv Gandhi Chatra Pratibha Puraskar.</a></h3>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								
+								<div class="desc">
+									
+									<h3><a href="">Awarded With Amul Vidya Shree.</a></h3>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					
+				</div>
+			</section>
 			
 			
 			
@@ -1018,30 +1166,30 @@
 					<div class="row">
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
 									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Renovating National Gallery</a></h3>
+									<h3><a href="">Renovating National Gallery</a></h3>
 									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
 									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
+									<h3><a href="">Wordpress for a Beginner</a></h3>
 									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
 									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
+									<h3><a href="">Make website from scratch</a></h3>
 									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 								</div>
 							</div>
