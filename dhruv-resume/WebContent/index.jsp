@@ -129,7 +129,7 @@
 					   					<div class="desc">
 						   					<h1>Hi! <br>I'm Dhruv</h1>
 						   					<!-- <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2> -->
-												<p><a href="download.jsp" class="btn btn-primary btn-learn">Get a PDF <i class="icon-download4"></i></a></p>
+												<p><a href="download.jsp" style="font-weight: bold;" class="btn btn-primary btn-learn">Get a PDF <i class="icon-download4"></i></a></p>
 											</div>
 					   				</div>
 					   			</div>
@@ -312,6 +312,18 @@
 						
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
+								<h3>WSO2 ESB</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
 								<h3>Java(Core+Advanced)</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="100"
@@ -454,7 +466,8 @@
 									         </div>
 									    </div>
 									</div>
-									<div class="panel panel-default">
+									
+									<!--  <div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingTwo">
 									        <h4 class="panel-title">
 									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Schooling
@@ -478,7 +491,7 @@
 									        
 									        </div>
 									    </div>
-									</div>
+									</div>-->
 									
 									
 									<!--<div class="panel panel-default">
@@ -555,7 +568,7 @@
 					                  <p>
 									<ul>
 						<li>Working for Finland based telecom company at client location</li>
-						<li>Architecture Upgrade for existing interface applications</li>
+						<li>Architecture Upgrade for existing interface applications and data services to WSO2 ESB</li>
 						<li>Application Level Support and Server Maintenance for  Telecom Critical applications</li>
 						<li>Monitoring Automation at Server and Application Level through Grafana</li>
 						<li>Devops: Jenkins for integrating Github, artifactory push, Testing(Robot Framework) and server deployment</li>
@@ -580,6 +593,10 @@
 					<ul>
 						<li>Full stack developer in Liferay 6.2(Frontend, Backend Developer and Admin)</li>
 						<li>Portal Development  for a Finnish client from scratch.</li>
+						<li>Developed customized portlets, theme, hooks and DB services.</li>
+						<li>Customized User Authentication and Management for Liferay Portal</li>
+						<li>Designing GSA(Google Search Appliance) frontends and integrating Google Search with Liferay</li>
+						<li>Integration of portal with Google Analytics</li>
 						<li>Use of Agile Methodology, JIRA and other Agile Processes which helped in on-time delivery and Go-live.</li>
 						<li>Code Management through Github.</li>
 
