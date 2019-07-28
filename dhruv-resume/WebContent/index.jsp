@@ -89,7 +89,7 @@
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
 						<li><a href="#" data-nav-section="experience2">Internships & Projects</a></li>
 						<li><a href="#" data-nav-section="experience3">Courses & Certifications</a></li>
-						<li><a href="#" data-nav-section="experience4">Achievements</a></li>
+						<!-- <li><a href="#" data-nav-section="experience4">Achievements</a></li> -->
 						<!-- <li><a href="#" data-nav-section="work">Work</a></li>
 						<li><a href="#" data-nav-section="blog">Blog</a></li> -->
 						<!--  <li><a href="#" data-nav-section="contact">Contact</a></li> -->
@@ -309,6 +309,19 @@
 								</div>
 							</div>
 						</div>
+						
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Liferay DXP(Developer+Admin)</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						
 						
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
@@ -556,6 +569,40 @@
 					<div class="row">
 						<div class="col-md-12">
 				         <div class="timeline-centered">
+						 
+						 
+						 
+						 
+						 
+						 
+						 
+						  <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="#"><i>IT Analyst,</i> Tata Consultancy Services (TCS), Finland</a><br><span>July 2019 - Present</span></h2>
+					                  <p>
+									<ul>
+						<li>Complete Migration of previously created Liferay 6.2 portal to Liferay DXP.</li>
+						<li>DB Migration and enhancement, migration of custom created portlets.</li>
+						<li>Fresh development for Liferay's core features like Hooks, EXT.</li>
+						<li>Admin tasks for Atlassian products(JIRA and Confluence)</li>
+					</ul>
+					</p>
+						
+							
+					               </div>
+					            </div>
+					         </article>
+						 
+						 
+						 
+						 
+						 
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
 
@@ -564,15 +611,16 @@
 					               </div>
 
 					               <div class="timeline-label">
-					                  <h2><a href="#"><i>System Engineer,</i> Tata Consultancy Services (TCS), Finland</a><br><span>June 2018 - Present</span></h2>
+					                  <h2><a href="#"><i>System Engineer,</i> Tata Consultancy Services (TCS), Finland</a><br><span>June 2018 - July 2019</span></h2>
 					                  <p>
 									<ul>
-						<li>Working for Finland based telecom company at client location</li>
+									<li>Working for Finland based telecom company at client location</li>
 						<li>Architecture Upgrade for existing interface applications and data services to WSO2 ESB</li>
 						<li>Application Level Support and Server Maintenance for  Telecom Critical applications</li>
 						<li>Monitoring Automation at Server and Application Level through Grafana</li>
 						<li>Devops: Jenkins for integrating Github, artifactory push, Testing(Robot Framework) and server deployment</li>
-						<li>Admin and server related tasks for Atlassian products(JIRA, Crowd, Confluence)</li>
+						<li>Server related tasks for Atlassian products(JIRA, Crowd, Confluence)</li>
+									
 					</ul>
 					</p>
 						
@@ -580,6 +628,7 @@
 					               </div>
 					            </div>
 					         </article>
+							 
 
 
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
@@ -923,7 +972,7 @@
 			
 			
 			
-			<section class="colorlib-blog" data-section="experience4">
+			<!-- <section class="colorlib-blog" data-section="experience4">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -962,7 +1011,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					
 					
 					<div class="row">
@@ -1310,4 +1359,3 @@
 
 	</body>
 </html>
-
