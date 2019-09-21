@@ -865,6 +865,8 @@
 									<a href="https://github.com/pdhruv93/YOLO-Face-Recognition-DLIB/blob/master/opencv-face-recognition-dlib/Face_Recognition_DLIB_Image.ipynb">Face Recognition Project</a>
 									<br><br>
 									<a href="https://github.com/pdhruv93/YOLO-Object-Detection/blob/master/yolo-object-detection/ObjectDetector_YOLO_Video.ipynb">YOLO Object Detection in Video</a>
+									<br><br>
+									<a href="https://github.com/pdhruv93/OpenCV-Gesture-Recognition">OpenCV Hand Gesture Recognition</a>
 									</p>
 								</div>
 							</div>
