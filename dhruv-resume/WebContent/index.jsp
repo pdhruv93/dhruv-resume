@@ -567,8 +567,7 @@
 						<li>SAML based EIAM integration of Liferay portal for secure user authentication.</li>
 						<li>Integration of portal with Google Analytics.</li>
 						<br>
-						<li>Detailed knowledge of Admin tasks for Atlassian products(JIRA, Crowd and Confluence)</li>
-						<li>Server+DB+Application Upgrade for JIRA, Crowd and Confluence</li>
+						<li>Detailed knowledge of Upgrade, Admin tasks for Atlassian products(JIRA, Crowd and Confluence)</li>
 					</ul>
 					</p>
 						
@@ -594,10 +593,9 @@
 									<ul>
 									<li>Working for Finland based telecom company at client location</li>
 						<li>Architecture Upgrade for existing interface applications and data services to WSO2 ESB</li>
-						<li>Application Level Support and Server Maintenance for  Telecom Critical applications</li>
-						<li>Monitoring Automation at Server and Application Level through Grafana</li>
+						<li>Grafana and Linux Shell Scripting for Server and Application Monitoring and Task Automation</li>
+						<li>Application Level Support and Linux Server Maintenance for  Telecom Critical applications</li>
 						<li>Devops: Jenkins for integrating Github, artifactory push, Testing(Robot Framework) and server deployment</li>
-						<li>Server related tasks for Atlassian products(JIRA, Crowd, Confluence)</li>
 									
 					</ul>
 					</p>
@@ -615,17 +613,15 @@
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	 <h2><a href="#"><i>Assistant System Engineer,</i> Tata Consultancy Services (TCS), Gurgaon</a><br><span>Oct 2015 - May 2018</span></h2>
+					               	 <h2><a href="#"><i>Assistant System Engineer,</i> Tata Consultancy Services (TCS), Gurgaon</a><br><span>July 2015 - May 2018</span></h2>
 					                  <p>
 					<ul>
 						<li>Full stack developer in Liferay 6.2(Frontend, Backend Developer and Admin)</li>
 						<li>Portal Development  for a Finnish client from scratch.</li>
-						<li>Developed customized portlets, theme, hooks and DB services.</li>
+						<li>Developed customized portlets, Velocity theme, hooks and DB services.</li>
 						<li>Customized User Authentication and Management for Liferay Portal</li>
-						<li>Designing GSA(Google Search Appliance) frontends and integrating Google Search with Liferay</li>
+						<li>Developed Velocity based Web Content Structures, Templates, Page Templates, ADT(Application Display templates) for Content Management.</li>
 						<li>Integration of portal with Google Analytics</li>
-						<li>Use of Agile Methodology, JIRA and other Agile Processes which helped in on-time delivery and Go-live.</li>
-						<li>Code Management through Github.</li>
 
 					</ul>
 					</p>
@@ -685,6 +681,53 @@
 					<div class="row">
 						<div class="col-md-12">
 				         <div class="timeline-centered">
+						 
+						 
+						 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Learn IT, Girl</a><br><span>11th March 2019 to 16th June 2019</span></h2>
+					                  <p>
+					<ul>
+						<li>Chosen as a Java mentor in <a href="https://www.learnitgirl.com">Learn IT, Girl Program</a>(Worldwide learning program for Girls where they get a mentor to help them learn to code and develop live projects.)</li>
+					<li>Java Microservices development using Spring Boot</li>
+					<li>Eureka server for Microservice Registration and Load Balancing</li>
+					<li>Microservice Documentation using Swagger</li>
+
+					</ul>
+					</p>
+					               </div>
+					            </div>
+					         </article>
+							 
+							 
+							 
+							  <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">@@time(At a time)</a><br><span>Hobby Project on Heroku</span></h2>
+					                  <p>
+					<ul>
+						<li>Single Page application based on Google API authentication, Bootstrap, Javascript-AJAX, Servlets using Tomcat container and Postgres SQL on Heroku.</li>
+					<li>The application lets users mark their current activity and then check the list of other users(with geographical location) doing exactly the same activity at that time. </li>
+					<li>Supports multiple devices and Whatsapp chat with other users.</li>
+					<li><a href="https://atatime.herokuapp.com/">Link</a></li>
+
+					</ul>
+					</p>
+					               </div>
+					            </div>
+					         </article>
+						 
+						 
+						 
+						 
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
 
@@ -696,9 +739,7 @@
 					                  <h2><a href="#">RAC(Recruitment and Assessment Centre), DRDO(Defence Research & Development Organisation)</a><br><span>17th June 2013 to 29th July 2013</span></h2>
 					                 <p>
 					<ul>
-						<li>Assignment entitled "Automated Email Sending"</li>
-						<li>Under supervision of Mrs. Jyoti Bhalla, Asst Director, Scientist ‘B’</li>
-						<li>The application runs on Desktop as a cron and reads CSV file from user's phone and reminds user of any birthday or reminders. Then it allows to send mail to the employee using predefined or custom templates.</li>
+						<li>Developed <b>Automated Email Sending for Events</b> application which reads and reminds users about their calendar events from phone. Then it allows to send one click mail to the employee using predefined or custom templates.</li>
 						<li>Technology Used: Core Java, JDBC, Java Swing, MySql</li>
 					</ul>
 					</p>
@@ -718,7 +759,7 @@
 					                  <p>
 					<ul>
 						<li>
-					An application which automatically runs on system start-up records the start-up and shutdown time of the system. Based on the past duration values it applies Genetic algorithm to calculate the expected usage time of the system. If the current usage exceeds the expected usage then it is informed to owner as Intrusion. Same principle can be applied to Network Usage.
+					An application which records start-up and shutdown times of the system and predicts expected usage time for the system using Genetic algorithm. If the current usage exceeds the expected time then it is informed to owner as Intrusion.
 					</li>
 
 					</ul>
@@ -730,48 +771,9 @@
 				
 					          
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-4">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">@@time(At a time)</a><br><span>Hobby Project on Heroku</span></h2>
-					                  <p>
-					<ul>
-						<li>Created as a Hobby Project on Heroku. Single Page application based on Bootstrap, Javascript-AJAX, Servlets using Tomcat container and Postgres SQL on Heroku.</li>
-					<li>The application lets users mark their current activity and then check the list of other users(with geographical location) doing exactly the same activity at that time. </li>
-					<li>Whatsapp chat with other users also supported.</li>
-					<li>Rich UI, easy signin using Google API and all devices support.</li>
-					<li><a href="https://atatime.herokuapp.com/">Link</a></li>
+					        
 
-					</ul>
-					</p>
-					               </div>
-					            </div>
-					         </article>
-
-					          <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-5">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Learn IT, Girl</a><br><span>11th March 2019 to 16th June 2019</span></h2>
-					                  <p>
-					<ul>
-						<li>Chosen as a Java mentor in <a href="https://www.learnitgirl.com">Learn IT, Girl</a> Program</li>
-						<li>Worldwide learning program for Girls where they get a mentor to help them through discovering their new language and coding their great project</li>
-					<li>Java Microservices using Spring Boot</li>
-					<li>Zuul and Yureka Servers for Microservice Registration and Load Balancing</li>
-					<li>Microservice Authentication</li>
-					<li>Microservice Documentation using Swagger</li>
-
-					</ul>
-					</p>
-					               </div>
-					            </div>
-					         </article>
+					          
 
 					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
 					            <div class="timeline-entry-inner">
