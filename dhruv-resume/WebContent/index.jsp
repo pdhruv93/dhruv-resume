@@ -634,22 +634,7 @@
 					            </div>
 					         </article>
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					                <h2><a href="#"><i>Assistant System Engineer Trainee,</i> Tata Consultancy Services (TCS), Chennai</a><br><span>July 2015 - Sept 2015</span></h2>
-					                  <p>
-					<ul>
-						<li>Developed a Telecom Portal in a team of 13 trainees using Java, JSP, Servlets, Bootstrap and v2.0 using Angular JS.</li>
-
-					</ul>
-					</p>
-					               </div>
-					            </div>
-					         </article>
+					     
 
 					         <!-- <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
 					            <div class="timeline-entry-inner">
@@ -719,25 +704,6 @@
 					</p>
 						
 							
-					               </div>
-					            </div>
-					         </article>
-
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	 <h2><a href="#">ITI(Indian Telephone Industry)</a><br><span>16th June 2014 to 31th July 2014</span></h2>
-					                  <p>
-					<ul>
-						<li>Assignment entitled "Email/SMS Sending System"</li>
-						<li>Technology Used: Core Java, JDBC, Java Swing, MySql, HTTP requests and response</li>
-					</ul>
-					</p>
-
 					               </div>
 					            </div>
 					         </article>
