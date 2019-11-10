@@ -177,7 +177,7 @@
 							<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
 									<div class="services color-4">
 										<span class="icon2"><i class="icon-phone3"></i></span>
-										<h3>Full Stack Developer</h3>
+										<h3>Liferay DXP Developer</h3>
 									</div>
 								</div>
 								
@@ -587,10 +587,16 @@
 					                  <h2><a href="#"><i>IT Analyst,</i> Tata Consultancy Services (TCS), Finland</a><br><span>July 2019 - Present</span></h2>
 					                  <p>
 									<ul>
-						<li>Complete Migration of previously created Liferay 6.2 portal to Liferay DXP.</li>
-						<li>DB Migration and enhancement, migration of custom created portlets.</li>
-						<li>Fresh development for Liferay's core features like Hooks, EXT.</li>
-						<li>Admin tasks for Atlassian products(JIRA and Confluence)</li>
+						<li>Full stack Liferay DXP developer(Frontend, Backend Developer and Admin)</li>
+						<li>Use of Liferay DXP Upgrade tool for DB and custom features migration from previously created Liferay 6.2 instance to Liferay DXP.</li>
+						<li>OSGI module development for portlets, Freemarker theme, Project Fragments, Model Listeners.</li>
+						<li>Service, API modules development for DB related tasks.</li>
+						<li>Developed Web Content Structures, Templates, Page Templates, ADT(Application Display templates) for Content Management.</li>
+						<li>SAML based EIAM integration of Liferay portal for secure user authentication.</li>
+						<li>Integration of portal with Google Analytics.</li>
+						<br>
+						<li>Detailed knowledge of Admin tasks for Atlassian products(JIRA, Crowd and Confluence)</li>
+						<li>Server+DB+Application Upgrade for JIRA, Crowd and Confluence</li>
 					</ul>
 					</p>
 						
