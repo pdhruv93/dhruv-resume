@@ -261,35 +261,13 @@
 						<!-- <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 							<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
 						</div> -->
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Python 3</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="100"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
-								    <!--  <span>75%</span>-->
-								  	</div>
-								</div>
-							</div>
-						</div>
+						
 						
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
-								<h3>Computer Vision in Python(OpenCV, YOLO3)</h3>
+								<h3>Liferay DXP(Developer+Admin)</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="100"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
-								    <!--  <span>75%</span>-->
-								  	</div>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Deep Learning with PyTorch</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="100"
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="100"
 								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
 								    <!--  <span>75%</span>-->
 								  	</div>
@@ -310,9 +288,47 @@
 							</div>
 						</div>
 						
+						
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
-								<h3>Liferay DXP(Developer+Admin)</h3>
+								<h3>Python 3: Deep Learning and Computer Vision</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Atlassian Products(JIRA, Crowd, Confluence)</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						
+						
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Spring Boot Microservices</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="100"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <!--  <span>75%</span>-->
+								  	</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Java(Core+Advanced)</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="100"
 								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
@@ -335,17 +351,6 @@
 							</div>
 						</div>
 						
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Java(Core+Advanced)</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="100"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
-								    <!--  <span>75%</span>-->
-								  	</div>
-								</div>
-							</div>
-						</div>
 						
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
@@ -361,7 +366,7 @@
 						
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
-								<h3>CSS</h3>
+								<h3>CSS, Bootstrap</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="100"
 								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
@@ -370,21 +375,6 @@
 								</div>
 							</div>
 						</div>
-						
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Bootstrap</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="100"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
-								    <!--  <span>75%</span>-->
-								  	</div>
-								</div>
-							</div>
-						</div>
-					
-						
-						
 						
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="progress-wrap">
@@ -397,24 +387,6 @@
 								</div>
 							</div>
 						</div>
-						
-						
-						
-						
-						
-						
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Atlassian Products(JIRA, Crowd, Confluence)</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="100"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
-								    <!--  <span>75%</span>-->
-								  	</div>
-								</div>
-							</div>
-						</div>
-						
 						
 						
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
